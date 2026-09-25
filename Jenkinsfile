@@ -4,14 +4,12 @@ agent any
 ```
 environment {
     MSBUILD = "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe"
-
-    PROJECT      = "login.vcxproj"
+    PROJECT = "login.vcxproj"
     BUILD_CONFIG = "Production"
-    PLATFORM     = "x64"
+    PLATFORM = "x64"
 
     CODECHECKER_RESULTS = "codechecker-reports"
-    CODECHECKER_BUILD   = "codechecker-build"
-
+    CODECHECKER_BUILD = "codechecker-build"
     CODECHECKER_SERVER = "http://localhost:8001"
 }
 
